@@ -37,7 +37,7 @@ function addCodepolitan(message) {
 
 var promises = Promise.all([
     helloWorld("Kresna Galuh"),
-    helloWorld("maulana"),
+    helloWorld("..."),
     helloWorld("Ahmad Oriza")
       .then(function(result) {
         return result;
